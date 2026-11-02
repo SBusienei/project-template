@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace with project validation
+        shell: bash
+        run: |
+          test -f README.md
+          test -f portfolio.yml
+          echo "Add the project's lint, test, type-check, and build commands here."

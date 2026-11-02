@@ -1,0 +1,12 @@
+title: Project name
+summary: A concise description of the user problem and the implemented solution.
+shows: system design, evaluation, testing and deployment.
+tags:
+  - mle
+  - fde
+technologies:
+  - Python
+code_url: https://github.com/SBusienei/REPOSITORY_NAME
+live_url:
+image:
+image_alt: Project architecture illustration
